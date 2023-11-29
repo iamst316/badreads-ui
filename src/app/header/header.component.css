@@ -1,0 +1,26 @@
+header{
+    border: 2px dotted dodgerblue;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    /* margin-left: .25rem; */
+    border: 2px solid red;
+    display: flex;
+    /* justify-content: ; */
+    max-width: 20%;
+}
+.logo>img{
+    border: 2px solid red;
+    border-radius: 2rem;
+    width: 2rem;
+    aspect-ratio: 1/1;
+}
+
+.name{
+    font-size: 170%;
+    margin-left: .25rem;
+}
+input[type="search"]{
+    height: 32px;
+}
