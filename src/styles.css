@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    --main-font : "Lato", sans-serif;
+    --main-accent-color: rgb(255, 229, 172);
+}
+
+@font-face{
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+}
