@@ -2,25 +2,44 @@ header{
     border: 2px dotted dodgerblue;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
     /* margin-left: .25rem; */
     border: 2px solid red;
     display: flex;
     /* justify-content: ; */
-    max-width: 20%;
+    align-items: center;
+    /* max-width: 20%; */
 }
 .logo>img{
     border: 2px solid red;
     border-radius: 2rem;
-    width: 2rem;
+    width: clamp(8px, 4vw, 2rem);
     aspect-ratio: 1/1;
 }
 
 .name{
-    font-size: 170%;
+    font-size: clamp(8px, 4vw, 24px);
     margin-left: .25rem;
 }
 input[type="search"]{
     height: 32px;
 }
+
+form{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+form input{
+    border: 0;
+}
+
+form button{
+    border: 0;
+    background-color: #ffffff00;
+    cursor: pointer;
+}
+
